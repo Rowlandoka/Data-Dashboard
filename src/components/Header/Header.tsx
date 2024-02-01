@@ -14,7 +14,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { signIn, signOut, useSession } from "next-auth/react";
-import ThemeToggleButton from '@/pages/components/ThemeToggleButton';
+import ThemeToggleButton from '@/components/ThemeToggleButton';
 import { useMediaQuery } from "@mui/material";
 
 export type HeaderProps = {
